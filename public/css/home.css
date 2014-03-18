@@ -1,0 +1,51 @@
+#peachgirl {
+    background: url('../img/home/me.jpg');
+    background-size: 500px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+}
+
+#startnow2 {
+    margin-top: 20px;
+    width: 270px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 13px;
+    text-transform: none;
+}
+
+.quotetitul {
+    width: 100%;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    margin-top: 40px;
+    line-height: 1.2;
+    color: #333;
+}
+
+.titulfooter11 {
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5%;
+}
+.titulfooter22 {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.titulfooter33 {
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+}

@@ -1,0 +1,14 @@
+<div class="" data-ng-controller="HeaderController">
+    <ul class="navbar-nav nav">
+        <li>
+            <a class="navbar-brand" id='logo' href="/">Alina Bilenskaya</a>
+        </li>
+
+    </ul>
+
+    <ul class="navbar-nav nav pull-right" >
+        <li data-ng-repeat="item in menu" ui-route="/{{item.link}}" ng-class="{active: $uiRoute}">
+            <a href="#!/{{item.link}}">{{item.title}}</a>
+        </li>
+    </ul>
+</div>

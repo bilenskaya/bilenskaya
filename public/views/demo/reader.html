@@ -1,0 +1,45 @@
+<section ng-controller="TextPaginationController" >
+
+
+
+
+
+
+
+
+      <div textpagination get-book-fn='getBookFn()'>
+
+
+          <button textpaginationnext class="btn btn-success btn-large btn-previous"><i class="fa fa-arrow-left fa-lg pull-left"></i>  Previous Page</button>
+          <button textpaginationnext class="btn btn-success btn-large btn-next">Next Page <i class="fa fa-arrow-right fa-lg pull-right"></i> </button>
+
+
+
+
+          <div  class="container">
+
+              <div class="text-container" id = "ipage">
+
+                  <p ng-class="myVar" class= "paragraph" ng-hide="1">ABC</p>
+
+                  <p ng-class="myVar" class= "paragraph" ng-repeat="paragraph in paragraphs">{{paragraph}}</p>
+
+              </div>
+
+
+          </div>
+
+
+       <div data-ng-hide="successContent">
+
+           Error to load content!
+
+
+       </div>
+
+
+
+      </div>
+
+
+</section>
