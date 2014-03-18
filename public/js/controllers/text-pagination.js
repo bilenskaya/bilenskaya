@@ -22,7 +22,7 @@ var TextPaginationController = ['$scope',
 
                 })
 
-
+            //wtf
 
         };
 
