@@ -7,7 +7,7 @@ var TextPaginationController = ['$scope',
         $scope.getBookFn = function () {
             console.log ('jhgg')
 
-            return $http.get('/articles/5298d7b452aab75403000004')
+            return $http.get('/articles/52ca8255a592e6ac26000004')
 
                 .then(function(book) {
 
